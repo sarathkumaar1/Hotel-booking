@@ -10,7 +10,7 @@ import { Webhook } from "svix";
         const headers ={
             "svix-id":req.headers["svix-id"],
             "svix-timestamp":req.headers["svix-timestamp"],
-            "svix-signature":req.headers["svix-id"],
+            "svix-signature":req.headers["svix-signature"],
         };
 
         //verifying headers
